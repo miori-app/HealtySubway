@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#008577</color> <!--titlebar-->
+    <color name="colorPrimaryDark">@color/subwayyellow</color> <!--상태바-->
     <color name="colorAccent">#D81B60</color>
     <color name="subwaylogo">#3C8555</color>
     <color name="bt_white">#FFF</color>
+    <color name="subwaygreen">#009743</color>
+    <color name="subwayyellow">#FFCB0A</color>
 </resources>
