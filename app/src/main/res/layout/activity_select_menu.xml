@@ -11,7 +11,23 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="match_parent" >
+=======
+        android:layout_height="wrap_content"
+        app:tabMode="scrollable"
+        app:tabIndicatorColor="@color/subwaygreen"
+        app:tabIndicatorHeight="5sp"
+        app:tabSelectedTextColor="@color/subwaygreen"
+        app:tabTextAppearance="@style/tab_item_text">
+
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/pick_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴" />
+>>>>>>> d6d309cb4a2d7bd0ef0d6debbcac41b7168680d4
 
 
         <com.google.android.material.tabs.TabLayout
@@ -31,11 +47,20 @@
                 android:layout_height="wrap_content"
                 android:text="메뉴" />
 
+<<<<<<< HEAD
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/pick_bread"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="빵" />
+=======
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/pick_extra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추가" />
+    </com.google.android.material.tabs.TabLayout>
+>>>>>>> d6d309cb4a2d7bd0ef0d6debbcac41b7168680d4
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/pick_cheese"

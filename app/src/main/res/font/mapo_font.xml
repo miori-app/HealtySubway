@@ -2,5 +2,9 @@
 <font-family xmlns:android="http://schemas.android.com/apk/res/android">
 <font
     android:fontStyle="normal"
+<<<<<<< HEAD
+=======
+    android:fontWeight="400"
+>>>>>>> d6d309cb4a2d7bd0ef0d6debbcac41b7168680d4
     android:font="@font/mapopeacefull"/>
 </font-family>

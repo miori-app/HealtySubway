@@ -9,6 +9,7 @@
         <!--No Title Bar-->
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+<<<<<<< HEAD
 
         <item name="android:buttonStyle">@style/MapoButtonStyle</item>
     </style>
@@ -30,6 +31,12 @@
 
     <style name="MapoTextViewStyle_small" parent="@android:style/Widget.DeviceDefault.TextView">
         <item name="android:textSize">10dp</item>
+=======
+    </style>
+
+    <style name="tab_item_text" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">20sp</item>
+>>>>>>> d6d309cb4a2d7bd0ef0d6debbcac41b7168680d4
         <item name="fontFamily">@font/mapopeacefull</item>
     </style>
     <style name="MapoButtonStyle" parent="@android:style/Widget.DeviceDefault.Button.Borderless">
@@ -44,6 +51,7 @@
     <style name="MapoCheckboxStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox">
         <item name="fontFamily">@font/mapopeacefull</item>
     </style>
+
 
 
 </resources>
