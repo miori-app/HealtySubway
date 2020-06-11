@@ -4,16 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/subwaylogo"
+    android:background="@color/bt_white"
     tools:context=".FirstPage">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:src="@drawable/diet"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toBottomOf="@+id/mainlogo"/>
 
 
     <ImageView
@@ -21,19 +14,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:src="@drawable/subway_logo_bg"
+        android:src="@drawable/subway_logo"
         android:adjustViewBounds="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/main_pick"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/button_main"
-        android:text="Pick"
-        android:textSize="20sp"
+        android:text="PICK"
+        android:fontFamily="@font/mapo_font"
+        android:textSize="40dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mainlogo"/>
 
 
